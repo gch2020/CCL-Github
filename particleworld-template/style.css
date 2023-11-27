@@ -1,0 +1,23 @@
+html, body {
+  margin: 10,10;
+  padding: 10,10;
+  background-color: pink;
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+
+    /* This centers our sketch vertically. */
+    align-items: center
+
+}
+canvas {
+  
+
+  display: block;
+  /* position: relative; */
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+
+    /* This centers our sketch vertically. */
+    align-items: center
+  
+}
