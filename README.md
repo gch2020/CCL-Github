@@ -8,5 +8,5 @@ this is my github PAGE (where we see things live): [https://gch2020.github.io/CC
 - [Project-A](Project-A)
 - [BATH PROJECT](particleworld-template)
 - [Final Proj web draft](FinalProj)
-- [Final Project Completed](FinalProject)
+- [Final Project Completed](FinalProj)
   
