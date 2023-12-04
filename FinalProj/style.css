@@ -11,7 +11,7 @@ background-image: linear-gradient(rgb(185, 234, 245),rgb(118, 205, 118));
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Lilita One', sans-serif;
   font-size: x-large;
 }
 #banner{
@@ -25,48 +25,52 @@ background-image: linear-gradient(rgb(185, 234, 245),rgb(118, 205, 118));
 
 }
 
-#world_banner{
+/* #world_banner{
     /* the width here is taking 100% width of it's parent div container, not the entire viewport */
-    width: 100%;
+    /* width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: fill; */
     
-}
+/* } */ */
 
-div.links{
+/* div.links{
     display:flex;
     flex-wrap: wrap;
-}
+} */
 
-div.linkA{
+/* div.linkA{
+    display: inline;
     /* border: 2px solid red; */
     /* display:flex; */
     /* width: 40%; */
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    margin-left: 20px;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-size: 20px; */
+    /* margin-left: 20px; */
     /* text-align: left; */
     /* padding: 10px;
     margin-top: 0px;
     margin-bottom: 0px; */
     
 
-}
+/* } */
 
-div.linkB{
+/* div.linkB{ */
+    /* display: inline; */
     /* border: 2px solid red; */
     /* display:flex; */
     /* width: 40%; */
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: 'Montserrat', sans-serif;
+    font-size: 20px; */
     /* margin-left: auto; */
     /* text-align: right; */
     /* padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px; */
-    margin-left: 1125px;
+    /* margin-left: auto; */
 
-}
+/* } */ */
 
 #links a{
     text-decoration:solid;
@@ -96,7 +100,10 @@ div.linkB{
     width: 87%;
     /* height: 600px; */
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: 'Abril Fatface', serif; */
+    font-family: 'Montserrat', sans-serif;
+    
     line-height: 30px;
     padding-left: 50px;
     margin-top: 75px;
@@ -134,20 +141,33 @@ div.linkB{
     /* border: solid white; */
     display: block;
     margin:auto;
-    width: 50%; 
+    width: 100%; 
 }
 
 #p5container{
-    border: 1.5px solid white; 
+    width: 100%;
+    /* border: 1.5px solid white;  */
      
      display: inline-block; 
 }
 
 #display{
     margin-top: 50px;
-    width: 50%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     /* margin:auto; */
 }
+
+#interfaces{
+    position: absolute; 
+    /* position: inherit; */
+    top:3px;
+    left: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 50%;
+    /* height: 100px; */
+  
+  }
